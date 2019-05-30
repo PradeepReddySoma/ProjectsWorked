@@ -1,0 +1,52 @@
+.tableborder
+{
+  border-top:    thin solid #EEE6B7;
+  border-right:  thin solid #EEE6B7;
+  border-left:   thin solid #EEE6B7;
+  border-bottom: thin solid #EEE6B7; 
+  border-style:  groove inset solid #EEE6B7;
+ 
+}
+
+.heading { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#EEE6B7;
+	font-weight:bold;
+	font-size: 11px;
+	line-height: 22px;
+	color:#000000;
+	vertical-align: middle;
+	text-align: left;ft;
+}
+.textarea
+{
+	height: 48px;
+	width: 130px;	
+}
+
+.tablerowdark { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#FAF5DF;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+ .tablerowlight { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#FAF8ED;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+
+ .textfield{      
+				  border-style:solid;
+                  border-color:#7FAD66;
+				  border-width:1px;
+				  width:130px;
+				  height:20px;
+}

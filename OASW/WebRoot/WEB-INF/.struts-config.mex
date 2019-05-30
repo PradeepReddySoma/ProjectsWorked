@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/login.do" location="50,50" dimension="207,96" />
+  <StrutsActivity path="/home.do" location="950,850" dimension="175,96" />
+  <StrutsActivity path="/assignTask.do" location="50,250" dimension="201,96" />
+  <StrutsActivity path="/viewWorkDetails.do" location="350,250" dimension="231,96" />
+  <StrutsActivity path="/workDetails.do" location="1250,50" dimension="205,96" />
+  <StrutsActivity path="/empMaster.do" location="950,250" dimension="231,96" />
+  <StrutsActivity path="/adminUsrMngmt.do" location="950,450" dimension="230,96" />
+  <StrutsActivity path="/adminChangePwd.do" location="50,650" dimension="242,96" />
+  <StrutsActivity path="/empViewTask.do" location="950,650" dimension="215,96" />
+  <StrutsActivity path="/webApplication.do" location="350,850" dimension="227,96" />
+  <StrutsActivity path="/empUpdateTask.do" location="1250,450" dimension="228,96" />
+  <StrutsActivity path="/updatedTasks.do" location="1250,850" dimension="216,96" />
+  <StrutsActivity path="/empChangePwd.do" location="650,1250" dimension="230,96" />
+  <StrutsActivity path="/forgotPassword.do" location="1250,250" dimension="227,96" />
+  <StrutsActivity path="/adminAccount.do" location="350,1350" dimension="227,96" />
+  <StrutsActivity path="/accountantForm.do" location="1550,750" dimension="204,96" />
+  <StrutsActivity path="/reports.do" location="950,1450" dimension="182,96" />
+  <StrutsActivity path="/accounts.do" location="350,1550" dimension="192,96" />
+  <StrutsActivity path="/accountant1.do" location="1850,650" dimension="210,96" />
+  <StrutsActivity path="/history.do" location="1850,1550" dimension="180,96" />
+  <StrutsActivity path="/accountHistory.do" location="1550,350" dimension="225,96" />
+  <StrutsActivity path="/clientHistory.do" location="1850,350" dimension="211,96" />
+  <StrutsActivity path="/tenderdetails.do" location="1850,1750" dimension="214,96" />
+  <StrutsActivity path="/tenderdisplay.do" location="50,1850" dimension="217,96" />
+  <StrutsActivity path="/contactManage.do" location="650,1850" dimension="227,96" />
+  <StrutsActivity path="/contactHistory.do" location="2150,750" dimension="219,96" />
+  <StrutsActivity path="/bankDetails.do" location="2150,1150" dimension="203,96" />
+  <StrutsActivity path="/employeeAccount.do" location="2150,1550" dimension="239,96" />
+  <StrutsActivity path="/companyAccount.do" location="2150,1350" dimension="239,96" />
+  <StrutsActivity path="/clientPayment.do" location="1550,1150" dimension="266,116" />
+  <StrutsActivity path="/account.do" location="2150,1950" dimension="187,96" />
+  <StrutsActivity path="/contactname.do" location="650,2050" dimension="214,96" />
+  <StrutsActivity path="/contact_no.do" location="1850,2150" dimension="203,96" />
+  <StrutsActivity path="/tender.do" location="2150,350" dimension="179,96" />
+  <StrutsActivity path="/devupdatetask.do" location="2450,1350" dimension="220,96" />
+  <StrutsActivity path="/devchangepwd.do" location="50,2250" dimension="224,96" />
+  <StrutsActivity path="/dailywork.do" location="350,2350" dimension="194,96" />
+  <StrutsActivity path="/displaywork.do" location="2450,450" dimension="206,96" />
+  <StrutsActivity path="/assignReport.do" location="3650,3050" dimension="212,96" />
+  <StrutsActivity path="/devUpdate.do" location="2750,950" dimension="200,96" />
+  <StrutsActivity path="/workview.do" location="2750,450" dimension="194,96" />
+  <StrutsActivity path="/accountantconmgnt.do" location="2750,1950" dimension="253,96" />
+  <StrutsActivity path="/accountanthistory.do" location="2750,2350" dimension="240,96" />
+  <StrutsActivity path="/acccontact_name.do" location="650,2450" dimension="237,96" />
+  <StrutsActivity path="/acccontact_no.do" location="350,2550" dimension="221,96" />
+  <StrutsActivity path="/fieldchangepwd.do" location="1550,2550" dimension="229,96" />
+  <StrutsActivity path="/devtask.do" location="2150,2350" dimension="183,96" />
+  <StrutsActivity path="/fieldtaskview.do" location="3050,1050" dimension="212,96" />
+  <StrutsActivity path="/fieldtaskupdate.do" location="3050,1450" dimension="225,96" />
+  <StrutsActivity path="/fieldworkview.do" location="3050,2150" dimension="217,96" />
+  <StrutsActivity path="/fieldtender1.do" location="3050,2550" dimension="207,96" />
+  <StrutsActivity path="/field.do" location="3050,3150" dimension="167,96" />
+  <StrutsActivity path="/serialNo.do" location="1250,2750" dimension="186,96" />
+  <StrutsActivity path="/dashboard.do" location="1850,2750" dimension="199,96" />
+  <StrutsActivity path="/accwork.do" location="2450,2750" dimension="188,96" />
+  <StrutsActivity path="/fieldwork.do" location="2150,550" dimension="193,96" />
+  <StrutsActivity path="/homedashboard.do" location="650,2850" dimension="231,96" />
+  <StrutsActivity path="/workingtime.do" location="950,2950" dimension="211,96" />
+  <StrutsActivity path="/fieldtime.do" location="3350,1350" dimension="191,96" />
+  <StrutsActivity path="/devtime.do" location="3350,1750" dimension="186,96" />
+  <StrutsActivity path="/dailyreport.do" location="3350,2350" dimension="200,96" />
+  <StrutsActivity path="/adminworktime.do" location="3350,2750" dimension="228,96" />
+  <StrutsActivity path="/adminworkdetail.do" location="2150,2950" dimension="233,96" />
+  <StrutsActivity path="/accreports.do" location="950,3150" dimension="199,96" />
+  <StrutsActivity path="/accountantReport.do" location="1850,3150" dimension="239,96" />
+  <StrutsActivity path="/personalinfo.do" location="3650,1250" dimension="208,96" />
+  <StrutsActivity path="/personalhistory.do" location="3650,2650" dimension="223,96" />
+  <StrutsActivity path="/jsp/login.jsp" location="650,50" dimension="100,51" />
+  <StrutsActivity path="/jsp/home.jsp" location="350,1150" dimension="104,51" />
+  <StrutsActivity path="/jsp/assignReport.jsp" location="3350,550" dimension="141,51" />
+  <StrutsActivity path="/jsp/assignTask.jsp" location="950,1050" dimension="130,51" />
+  <StrutsActivity path="/jsp/adminViewWork.jsp" location="650,350" dimension="160,51" />
+  <StrutsActivity path="/jsp/workDetails.jsp" location="950,1250" dimension="134,51" />
+  <StrutsActivity path="/jsp/employeeMaster.jsp" location="50,450" dimension="161,51" />
+  <StrutsActivity path="/jsp/adminUserMngmt.jsp" location="650,550" dimension="170,51" />
+  <StrutsActivity path="/jsp/adminChangePwd.jsp" location="650,750" dimension="171,51" />
+  <StrutsActivity path="/jsp/empView.jsp" location="50,850" dimension="122,51" />
+  <StrutsActivity path="/jsp/webApplication.jsp" location="650,1050" dimension="156,51" />
+  <StrutsActivity path="/jsp/empUpdateTask.jsp" location="1250,650" dimension="159,51" />
+  <StrutsActivity path="/jsp/updatedTasks.jsp" location="1250,1050" dimension="146,51" />
+  <StrutsActivity path="/jsp/empChangePwd.jsp" location="50,1250" dimension="161,51" />
+  <StrutsActivity path="/jsp/forgotPassword.jsp" location="1250,1250" dimension="156,51" />
+  <StrutsActivity path="/jsp/adminAccount.jsp" location="1550,550" dimension="152,51" />
+  <StrutsActivity path="/jsp/accountantForm.jsp" location="650,1450" dimension="161,51" />
+  <StrutsActivity path="/jsp/reports.jsp" location="1250,1450" dimension="110,51" />
+  <StrutsActivity path="/jsp/accountant1.jsp" location="1850,850" dimension="139,51" />
+  <StrutsActivity path="/jsp/accounts.jsp" location="1550,1550" dimension="121,51" />
+  <StrutsActivity path="/jsp/history.jsp" location="650,1650" dimension="109,51" />
+  <StrutsActivity path="/jsp/accountHistory.jsp" location="350,1750" dimension="154,51" />
+  <StrutsActivity path="/jsp/clientHistory.jsp" location="1550,1750" dimension="140,51" />
+  <StrutsActivity path="/jsp/tenderdetails.jsp" location="1250,2150" dimension="141,51" />
+  <StrutsActivity path="/jsp/tenderdisplay.jsp" location="950,2150" dimension="144,51" />
+  <StrutsActivity path="/jsp/contactManage.jsp" location="950,1850" dimension="156,51" />
+  <StrutsActivity path="/jsp/contactname.jsp" location="350,2150" dimension="143,51" />
+  <StrutsActivity path="/jsp/contactHistory.jsp" location="2150,950" dimension="151,51" />
+  <StrutsActivity path="/jsp/contact_no.jsp" location="2150,2150" dimension="132,51" />
+  <StrutsActivity path="/jsp/companyAccount.jsp" location="1250,1850" dimension="168,51" />
+  <StrutsActivity path="/jsp/bankDetails.jsp" location="2150,1750" dimension="134,51" />
+  <StrutsActivity path="/jsp/employeeAccount.jsp" location="350,1950" dimension="170,51" />
+  <StrutsActivity path="/jsp/clientPayment.jsp" location="1550,1350" dimension="180,56" />
+  <StrutsActivity path="/jsp/account.jsp" location="50,2050" dimension="116,51" />
+  <StrutsActivity path="/jsp/tender.jsp" location="2450,750" dimension="107,51" />
+  <StrutsActivity path="/jsp/tenderhistory.jsp" location="2450,1150" dimension="143,51" />
+  <StrutsActivity path="/jsp/devupdatetask.jsp" location="2450,2150" dimension="150,51" />
+  <StrutsActivity path="/jsp/devchangepwd.jsp" location="650,2250" dimension="154,51" />
+  <StrutsActivity path="/jsp/dailywork.jsp" location="950,2350" dimension="124,51" />
+  <StrutsActivity path="/jsp/displaywork.jsp" location="1250,2350" dimension="136,51" />
+  <StrutsActivity path="/jsp/devUpdate.jsp" location="2750,1150" dimension="130,51" />
+  <StrutsActivity path="/jsp/workview.jsp" location="2750,1750" dimension="123,51" />
+  <StrutsActivity path="/jsp/accountantconmgnt.jsp" location="2750,2150" dimension="182,51" />
+  <StrutsActivity path="/jsp/acccontact_name.jsp" location="1250,2550" dimension="166,51" />
+  <StrutsActivity path="/jsp/accountanthistory.jsp" location="50,2450" dimension="169,51" />
+  <StrutsActivity path="/jsp/acccontact_no.jsp" location="950,2550" dimension="150,51" />
+  <StrutsActivity path="/jsp/fieldchangepwd.jsp" location="1850,2550" dimension="158,51" />
+  <StrutsActivity path="/jsp/devtask.jsp" location="2150,2550" dimension="113,51" />
+  <StrutsActivity path="/jsp/fieldtaskview.jsp" location="3050,1250" dimension="141,51" />
+  <StrutsActivity path="/jsp/fieldtaskupdate.jsp" location="3050,1650" dimension="154,51" />
+  <StrutsActivity path="/jsp/fieldworkview.jsp" location="3050,2350" dimension="146,51" />
+  <StrutsActivity path="/jsp/fieldtender1.jsp" location="650,2650" dimension="136,51" />
+  <StrutsActivity path="/jsp/field.jsp" location="3350,3150" dimension="96,51" />
+  <StrutsActivity path="/jsp/serialNo.jsp" location="1550,2750" dimension="116,51" />
+  <StrutsActivity path="/jsp/dashboard.jsp" location="2150,2750" dimension="129,51" />
+  <StrutsActivity path="/jsp/accwork.jsp" location="3050,2750" dimension="117,51" />
+  <StrutsActivity path="/jsp/fieldwork.jsp" location="50,2850" dimension="122,51" />
+  <StrutsActivity path="/jsp/homedashboard.jsp" location="350,2950" dimension="160,51" />
+  <StrutsActivity path="/jsp/workingtime.jsp" location="1250,2950" dimension="140,51" />
+  <StrutsActivity path="/jsp/fieldtime.jsp" location="3350,1550" dimension="120,51" />
+  <StrutsActivity path="/jsp/devtime.jsp" location="3350,2150" dimension="116,51" />
+  <StrutsActivity path="/jsp/dailyreport.jsp" location="3350,2550" dimension="130,51" />
+  <StrutsActivity path="/jsp/displayTimeReport.jsp" location="2450,3150" dimension="172,51" />
+  <StrutsActivity path="/jsp/adminworktime.jsp" location="1550,2950" dimension="157,51" />
+  <StrutsActivity path="/jsp/adminworkdetail.jsp" location="2450,2950" dimension="162,51" />
+  <StrutsActivity path="/jsp/accreports.jsp" location="1550,3150" dimension="128,51" />
+  <StrutsActivity path="/jsp/accountantReport.jsp" location="2150,3150" dimension="168,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp" location="3650,1450" dimension="139,51" />
+  <StrutsActivity path="/jsp/personalhistory.jsp" location="3650,2850" dimension="154,51" />
+  <StrutsActivity path="/jsp/.jsp" location="350,450" dimension="73,51" />
+  <StrutsActivity path="" location="2750,3150" dimension="142,96" />
+  <StrutsActivity path="/jsp/fieldtenderhistory.jsp" location="950,2750" dimension="166,51" />
+  <StrutsActivity path="/jsp/smtender.jsp" location="3050,2950" dimension="123,51" />
+  <StrutsActivity path="/jsp/smhistory.jsp" location="3350,2950" dimension="125,51" />
+  <StrutsActivity path="/jsp/smtime.jsp" location="50,3050" dimension="113,51" />
+  <StrutsActivity path="/jsp/smwork.jsp" location="650,3050" dimension="115,51" />
+  <StrutsActivity path="/jsp/smchangepwd.jsp" location="350,3150" dimension="151,51" />
+  <StrutsActivity path="/jsp/clientpay.jsp" location="2750,2750" dimension="121,51" />
+  <StrutsActivity path="/jsp/devTaskView.jsp" location="2450,2350" dimension="141,51" />
+  <StrutsActivity path="jsp/devUpdate.jsp" location="2750,1350" dimension="125,51" />
+  <StrutsActivity path="/jsp/developerheader.jsp" location="2450,1950" dimension="161,51" />
+  <StrutsActivity path="/jsp/devheader.jsp" location="2450,1550" dimension="128,51" />
+  <StrutsActivity path="/jsp/contactno.jsp" location="1550,2150" dimension="127,51" />
+  <StrutsActivity path="/jsp/accountant1" location="1850,1350" dimension="121,51" />
+  <StrutsActivity path="/jsp/accountantPer.jsp" location="950,1650" dimension="150,51" />
+  <StrutsActivity path="/jsp/accountant.jsp" location="1550,950" dimension="133,51" />
+  <StrutsActivity path="/jsp/empHome.jsp" location="350,650" dimension="130,51" />
+  <StrutsActivity path="/jsp/adminHome.jsp" location="950,50" dimension="140,51" />
+  <StrutsActivity path="/form/home.jsp" location="350,50" dimension="115,51" />
+  <StrutsActivity path="/jsp/vehicleheader.jsp" location="50,1050" dimension="146,51" />
+  <StrutsActivity path="/jsp/adminaccount.jsp" location="50,1450" dimension="150,51" />
+  <StrutsActivity path="/jsp/histoyr.jsp" location="1250,1650" dimension="109,51" />
+  <StrutsActivity path="/jsp/client.jsp" location="1550,1950" dimension="102,51" />
+  <StrutsActivity path="/jsp/clien.jsp" location="1850,1950" dimension="98,51" />
+  <StrutsActivity path="/jsp/empHeader.jsp" location="2450,1750" dimension="135,51" />
+  <StrutsActivity path="/" location="1550,2350" dimension="35,51" />
+  <StrutsActivity path="/JSP/E" location="1850,2350" dimension="63,51" />
+  <StrutsActivity path="/jsp/" location="2750,1550" dimension="55,51" />
+  <StrutsActivity path="/devtask." location="2450,2550" dimension="78,51" />
+  <StrutsActivity path="/devtask.jsp" location="2750,2550" dimension="93,51" />
+  <StrutsActivity path="/jsp.devtask.jsp" location="50,2650" dimension="111,51" />
+  <StrutsActivity path="jsp/fieldtender1.jsp" location="350,2750" dimension="131,51" />
+  <StrutsActivity path="/jsp/worktingtime.jsp" location="3350,1150" dimension="144,51" />
+  <StrutsActivity path="/jsp/devtime" location="3350,1950" dimension="98,51" />
+  <StrutsActivity path="/jsp/adminworktime" location="1850,2950" dimension="139,51" />
+  <StrutsActivity path="/jsp/histor y.jsp" location="2750,2950" dimension="112,51" />
+  <StrutsActivity path="/jsp/accrepots.jsp" location="1250,3150" dimension="124,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp" location="3650,1650" dimension="684,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp" location="3650,1850" dimension="575,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp" location="3650,2050" dimension="466,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp/jsp/personalinfo.jsp/jsp/personalinfo.jsp" location="3650,2250" dimension="357,51" />
+  <StrutsActivity path="/jsp/personalinfo.jsp/jsp/personalinfo.jsp" location="3650,2450" dimension="248,51" />
+  <StrutsActivity path="/tenderhistory.do" />
+  <StrutsTransition id="/jsp/accountantForm.jsp,null,/accountantForm.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="811,1475" />
+      <AbsolutePoint location="902,1475" />
+      <AbsolutePoint location="902,1116" />
+      <AbsolutePoint location="1698,1116" />
+      <AbsolutePoint location="1698,846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/acccontact_name.jsp,null,/acccontact_name.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1288,2550" />
+      <AbsolutePoint location="1288,2538" />
+      <AbsolutePoint location="887,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accwork.jsp,null,/accwork.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3138,2801" />
+      <AbsolutePoint location="3138,2865" />
+      <AbsolutePoint location="2544,2865" />
+      <AbsolutePoint location="2544,2846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/clientPayment.jsp,null,/clientPayment.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1683,1350" />
+      <AbsolutePoint location="1683,1266" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/acccontact_name.do,display,/jsp/acccontact_name.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="887,2516" />
+      <AbsolutePoint location="1318,2516" />
+      <AbsolutePoint location="1318,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accounts.do,display,/jsp/accounts.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="446,1646" />
+      <AbsolutePoint location="446,1716" />
+      <AbsolutePoint location="1610,1716" />
+      <AbsolutePoint location="1610,1601" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workingtime.do,display,/jsp/workingtime.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1161,2975" />
+      <AbsolutePoint location="1250,2975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewWorkDetails.do,display,/jsp/adminViewWork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="465,346" />
+      <AbsolutePoint location="465,375" />
+      <AbsolutePoint location="650,375" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactname.do,display1,/jsp/contactHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="819,2146" />
+      <AbsolutePoint location="819,2265" />
+      <AbsolutePoint location="3018,2265" />
+      <AbsolutePoint location="3018,1116" />
+      <AbsolutePoint location="2221,1116" />
+      <AbsolutePoint location="2221,1001" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminUsrMngmt.do,display,/jsp/adminUserMngmt.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1065,546" />
+      <AbsolutePoint location="1065,575" />
+      <AbsolutePoint location="820,575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/personalinfo.do,history,/jsp/personalhistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,1294" />
+      <AbsolutePoint location="3342,1294" />
+      <AbsolutePoint location="3342,2873" />
+      <AbsolutePoint location="3650,2873" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accountHistory.jsp,null,/accountHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accounts.do,slno,/jsp/accountantForm.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="542,1616" />
+      <AbsolutePoint location="700,1616" />
+      <AbsolutePoint location="700,1501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accountantconmgnt.jsp,null,/accountantconmgnt.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2876,2150" />
+      <AbsolutePoint location="2876,2046" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/reports.do,display,/jsp/reports.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1132,1475" />
+      <AbsolutePoint location="1250,1475" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,dev,/devtime.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="183,146" />
+      <AbsolutePoint location="183,191" />
+      <AbsolutePoint location="2965,191" />
+      <AbsolutePoint location="2965,1786" />
+      <AbsolutePoint location="3350,1786" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,emp,/workingtime.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="257,86" />
+      <AbsolutePoint location="307,86" />
+      <AbsolutePoint location="307,3016" />
+      <AbsolutePoint location="950,3016" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldwork.do,display,/jsp/fieldwork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactHistory.do,display,/jsp/contactHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2195,846" />
+      <AbsolutePoint location="2195,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/employeeAccount.do,display,/jsp/employeeAccount.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2352,1646" />
+      <AbsolutePoint location="2352,2716" />
+      <AbsolutePoint location="30,2716" />
+      <AbsolutePoint location="30,1975" />
+      <AbsolutePoint location="350,1975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignReport.do,display,/jsp/assignReport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,3094" />
+      <AbsolutePoint location="3587,3094" />
+      <AbsolutePoint location="3587,589" />
+      <AbsolutePoint location="3491,589" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldchangepwd.jsp,null,/fieldchangepwd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1929,2601" />
+      <AbsolutePoint location="1929,2616" />
+      <AbsolutePoint location="1779,2616" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderdetails.do,check,/jsp/tenderdisplay.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminViewWork.jsp,null,/viewWorkDetails.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="730,350" />
+      <AbsolutePoint location="730,298" />
+      <AbsolutePoint location="581,298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminChangePwd.do,display,/jsp/adminChangePwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="157,746" />
+      <AbsolutePoint location="157,775" />
+      <AbsolutePoint location="650,775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminAccount.jsp,null,/adminAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,575" />
+      <AbsolutePoint location="1424,575" />
+      <AbsolutePoint location="1424,765" />
+      <AbsolutePoint location="1147,765" />
+      <AbsolutePoint location="1147,1391" />
+      <AbsolutePoint location="577,1391" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workDetails.do,display,/jsp/workDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,86" />
+      <AbsolutePoint location="1226,86" />
+      <AbsolutePoint location="1226,1275" />
+      <AbsolutePoint location="1084,1275" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empChangePwd.do,display,/jsp/empChangePwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1275" />
+      <AbsolutePoint location="211,1275" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/employeeAccount.jsp,null,/employeeAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="508,2001" />
+      <AbsolutePoint location="508,2216" />
+      <AbsolutePoint location="1705,2216" />
+      <AbsolutePoint location="1705,1716" />
+      <AbsolutePoint location="2269,1716" />
+      <AbsolutePoint location="2269,1646" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountant1.do,history,/jsp/history.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2060,698" />
+      <AbsolutePoint location="2434,698" />
+      <AbsolutePoint location="2434,3321" />
+      <AbsolutePoint location="932,3321" />
+      <AbsolutePoint location="932,1675" />
+      <AbsolutePoint location="759,1675" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/dailywork.jsp,null,/dailywork.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,2365" />
+      <AbsolutePoint location="902,2365" />
+      <AbsolutePoint location="902,3351" />
+      <AbsolutePoint location="-85,3351" />
+      <AbsolutePoint location="-85,2398" />
+      <AbsolutePoint location="350,2398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/workDetails.jsp,null,/workDetails.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,1275" />
+      <AbsolutePoint location="932,1275" />
+      <AbsolutePoint location="932,116" />
+      <AbsolutePoint location="1250,116" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/devchangepwd.jsp,null,/devchangepwd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="727,2301" />
+      <AbsolutePoint location="727,2365" />
+      <AbsolutePoint location="596,2365" />
+      <AbsolutePoint location="596,2465" />
+      <AbsolutePoint location="234,2465" />
+      <AbsolutePoint location="234,2346" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountanthistory.do,display1,/jsp/acccontact_name.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2856,2446" />
+      <AbsolutePoint location="2856,2665" />
+      <AbsolutePoint location="1333,2665" />
+      <AbsolutePoint location="1333,2601" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/tenderdisplay.jsp,null,/tenderdisplay.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldworkview.do,display,/jsp/fieldworkview.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3123,2246" />
+      <AbsolutePoint location="3123,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/contactManage.jsp,null,/contactManage.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1028,1901" />
+      <AbsolutePoint location="1028,1916" />
+      <AbsolutePoint location="877,1916" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/displaywork.jsp,null,/displaywork.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1348,2401" />
+      <AbsolutePoint location="1348,2516" />
+      <AbsolutePoint location="3565,2516" />
+      <AbsolutePoint location="3565,816" />
+      <AbsolutePoint location="2572,816" />
+      <AbsolutePoint location="2572,546" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/empChangePwd.jsp,null,/empChangePwd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="130,1301" />
+      <AbsolutePoint location="130,1316" />
+      <AbsolutePoint location="650,1316" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/acccontact_no.do,display1,/jsp/accountanthistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,2598" />
+      <AbsolutePoint location="134,2598" />
+      <AbsolutePoint location="134,2501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountHistory.do,display,/jsp/accountHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/dailyreport.jsp,null,/dailyreport.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3450,2550" />
+      <AbsolutePoint location="3450,2446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contact_no.do,display1,/jsp/contactHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1963,2150" />
+      <AbsolutePoint location="1963,1916" />
+      <AbsolutePoint location="3320,1916" />
+      <AbsolutePoint location="3320,916" />
+      <AbsolutePoint location="2259,916" />
+      <AbsolutePoint location="2259,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminUserMngmt.jsp,null,/adminUsrMngmt.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="735,550" />
+      <AbsolutePoint location="735,486" />
+      <AbsolutePoint location="950,486" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/reports.jsp,null,/reports.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1305,1501" />
+      <AbsolutePoint location="1305,1516" />
+      <AbsolutePoint location="1132,1516" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/tenderdetails.jsp,null,/tenderdetails.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/personalinfo.jsp,null,/personalinfo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3754,1450" />
+      <AbsolutePoint location="3754,1346" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/homedashboard.do,display,/jsp/homedashboard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="780,2946" />
+      <AbsolutePoint location="780,2975" />
+      <AbsolutePoint location="510,2975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/homedashboard.jsp,null,/homedashboard.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="430,2950" />
+      <AbsolutePoint location="430,2886" />
+      <AbsolutePoint location="650,2886" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/webApplication.do,display,/jsp/webApplication.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="469,946" />
+      <AbsolutePoint location="469,1075" />
+      <AbsolutePoint location="650,1075" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,failure,/jsp/home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1099,946" />
+      <AbsolutePoint location="1099,1175" />
+      <AbsolutePoint location="454,1175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountantForm.do,display123,/accountantForm.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1656,750" />
+      <AbsolutePoint location="1656,665" />
+      <AbsolutePoint location="1790,665" />
+      <AbsolutePoint location="1790,768" />
+      <AbsolutePoint location="1754,768" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountant1.do,display,/jsp/accountant1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1919,746" />
+      <AbsolutePoint location="1919,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactHistory.do,display1,/jsp/contactname.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2369,786" />
+      <AbsolutePoint location="2404,786" />
+      <AbsolutePoint location="2404,2316" />
+      <AbsolutePoint location="421,2316" />
+      <AbsolutePoint location="421,2201" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountantForm.do,display,/jsp/accountantForm.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1754,798" />
+      <AbsolutePoint location="1831,798" />
+      <AbsolutePoint location="1831,1616" />
+      <AbsolutePoint location="730,1616" />
+      <AbsolutePoint location="730,1501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/devtask.jsp,null,/devtask.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2176,2550" />
+      <AbsolutePoint location="2176,2446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/employeeMaster.jsp,null,/empMaster.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="130,501" />
+      <AbsolutePoint location="130,565" />
+      <AbsolutePoint location="626,565" />
+      <AbsolutePoint location="626,328" />
+      <AbsolutePoint location="950,328" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldtime.jsp,null,/fieldtime.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3445,1550" />
+      <AbsolutePoint location="3445,1446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/empUpdateTask.jsp,null,/empUpdateTask.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1364,650" />
+      <AbsolutePoint location="1364,546" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devupdatetask.do,display,/jsp/devupdatetask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2653,1446" />
+      <AbsolutePoint location="2653,2175" />
+      <AbsolutePoint location="2600,2175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldwork.jsp,null,/fieldwork.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/account.do,slno,/jsp/accountantForm.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2243,2046" />
+      <AbsolutePoint location="2243,2116" />
+      <AbsolutePoint location="1493,2116" />
+      <AbsolutePoint location="1493,1365" />
+      <AbsolutePoint location="730,1365" />
+      <AbsolutePoint location="730,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/workingtime.jsp,null,/workingtime.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1320,3001" />
+      <AbsolutePoint location="1320,3016" />
+      <AbsolutePoint location="1161,3016" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/clientHistory.jsp,null,/clientHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignTask.do,display,/jsp/assignTask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="150,346" />
+      <AbsolutePoint location="150,416" />
+      <AbsolutePoint location="836,416" />
+      <AbsolutePoint location="836,1075" />
+      <AbsolutePoint location="950,1075" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assignTask.do,displayReport1,/jsp/assignReport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="123,250" />
+      <AbsolutePoint location="123,161" />
+      <AbsolutePoint location="3420,161" />
+      <AbsolutePoint location="3420,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,failure,/jsp/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="257,116" />
+      <AbsolutePoint location="700,116" />
+      <AbsolutePoint location="700,101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/bankDetails.jsp,null,/bankDetails.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1775" />
+      <AbsolutePoint location="2134,1775" />
+      <AbsolutePoint location="2134,1465" />
+      <AbsolutePoint location="2004,1465" />
+      <AbsolutePoint location="2004,1198" />
+      <AbsolutePoint location="2150,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tender.do,display,/jsp/tender.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2329,398" />
+      <AbsolutePoint location="3155,398" />
+      <AbsolutePoint location="3155,775" />
+      <AbsolutePoint location="2557,775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/acccontact_no.jsp,null,/acccontact_no.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1025,2601" />
+      <AbsolutePoint location="1025,2616" />
+      <AbsolutePoint location="571,2616" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empUpdateTask.do,display,/jsp/empUpdateTask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1329,546" />
+      <AbsolutePoint location="1329,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dashboard.do,display,/jsp/dashboard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2049,2775" />
+      <AbsolutePoint location="2150,2775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bankDetails.do,displaycomp,/jsp/companyAccount.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2353,1216" />
+      <AbsolutePoint location="2715,1216" />
+      <AbsolutePoint location="2715,1875" />
+      <AbsolutePoint location="1418,1875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,display,/jsp/home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1037,946" />
+      <AbsolutePoint location="1037,965" />
+      <AbsolutePoint location="402,965" />
+      <AbsolutePoint location="402,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clientHistory.do,display,/jsp/clientHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactname.do,display,/jsp/contactname.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2116" />
+      <AbsolutePoint location="421,2116" />
+      <AbsolutePoint location="421,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldtaskupdate.jsp,null,/fieldtaskupdate.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3162,1650" />
+      <AbsolutePoint location="3162,1546" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devtime.do,display,/jsp/devtime.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3463,1846" />
+      <AbsolutePoint location="3463,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderdetails.do,tenderdetails,/jsp/tenderdetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/tender.jsp,null,/tender.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accwork.do,display,/jsp/accwork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2638,2816" />
+      <AbsolutePoint location="3108,2816" />
+      <AbsolutePoint location="3108,2801" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empViewTask.do,display1,/empViewTask.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1079,746" />
+      <AbsolutePoint location="1079,822" />
+      <AbsolutePoint location="1172,822" />
+      <AbsolutePoint location="1172,708" />
+      <AbsolutePoint location="1165,708" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/forgotPassword.do,display,/jsp/forgotPassword.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1477,298" />
+      <AbsolutePoint location="1523,298" />
+      <AbsolutePoint location="1523,1281" />
+      <AbsolutePoint location="1406,1281" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accounts.do,accountant1234,/jsp/accountant1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="542,1586" />
+      <AbsolutePoint location="1375,1586" />
+      <AbsolutePoint location="1375,1316" />
+      <AbsolutePoint location="1919,1316" />
+      <AbsolutePoint location="1919,901" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/empView.jsp,null,/empViewTask.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,875" />
+      <AbsolutePoint location="0,875" />
+      <AbsolutePoint location="0,616" />
+      <AbsolutePoint location="1065,616" />
+      <AbsolutePoint location="1065,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accountant1.jsp,null,/accountant1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1955,850" />
+      <AbsolutePoint location="1955,746" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accountantReport.jsp,null,/accountantReport.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2234,3201" />
+      <AbsolutePoint location="2234,3216" />
+      <AbsolutePoint location="2089,3216" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/updatedTasks.jsp,null,/updatedTasks.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1358,1050" />
+      <AbsolutePoint location="1358,946" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displaywork.do,display,/jsp/displaywork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2542,546" />
+      <AbsolutePoint location="2542,616" />
+      <AbsolutePoint location="3623,616" />
+      <AbsolutePoint location="3623,2465" />
+      <AbsolutePoint location="1318,2465" />
+      <AbsolutePoint location="1318,2401" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workview.do,display,/jsp/workview.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2944,498" />
+      <AbsolutePoint location="3933,498" />
+      <AbsolutePoint location="3933,1616" />
+      <AbsolutePoint location="2820,1616" />
+      <AbsolutePoint location="2820,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devtask.do,display,/jsp/devtask.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2206,2446" />
+      <AbsolutePoint location="2206,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatedTasks.do,display,/jsp/updatedTasks.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1323,946" />
+      <AbsolutePoint location="1323,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/personalhistory.do,display,/jsp/personalhistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3727,2746" />
+      <AbsolutePoint location="3727,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/account.do,display,/jsp/account.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1986" />
+      <AbsolutePoint location="2134,1986" />
+      <AbsolutePoint location="2134,2416" />
+      <AbsolutePoint location="626,2416" />
+      <AbsolutePoint location="626,2075" />
+      <AbsolutePoint location="166,2075" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accreports.jsp,null,/accreports.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1644,3201" />
+      <AbsolutePoint location="1644,3291" />
+      <AbsolutePoint location="1049,3291" />
+      <AbsolutePoint location="1049,3246" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderdisplay.do,tenderdisplay,/jsp/tenderdisplay.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/contactname.jsp,null,/contactname.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="493,2175" />
+      <AbsolutePoint location="757,2175" />
+      <AbsolutePoint location="757,2146" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/serialNo.do,display,/jsp/serialNo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1436,2775" />
+      <AbsolutePoint location="1550,2775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devtask.do,display1,/devtask.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2241,2446" />
+      <AbsolutePoint location="2241,2538" />
+      <AbsolutePoint location="2410,2538" />
+      <AbsolutePoint location="2410,2394" />
+      <AbsolutePoint location="2333,2394" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empViewTask.do,update,/empUpdateTask.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1165,686" />
+      <AbsolutePoint location="1196,686" />
+      <AbsolutePoint location="1196,498" />
+      <AbsolutePoint location="1250,498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminAccount.do,display,/jsp/adminAccount.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="577,1421" />
+      <AbsolutePoint location="2134,1421" />
+      <AbsolutePoint location="2134,575" />
+      <AbsolutePoint location="1702,575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/account.jsp,null,/account.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2075" />
+      <AbsolutePoint location="0,2075" />
+      <AbsolutePoint location="0,3261" />
+      <AbsolutePoint location="1831,3261" />
+      <AbsolutePoint location="1831,2016" />
+      <AbsolutePoint location="2150,2016" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtaskview.do,display1,/fieldtaskview.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,1050" />
+      <AbsolutePoint location="3155,995" />
+      <AbsolutePoint location="3755,995" />
+      <AbsolutePoint location="3755,1098" />
+      <AbsolutePoint location="3262,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtaskupdate.do,display,/jsp/fieldtaskupdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3127,1546" />
+      <AbsolutePoint location="3127,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/login.jsp,null,/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="700,50" />
+      <AbsolutePoint location="700,30" />
+      <AbsolutePoint location="183,30" />
+      <AbsolutePoint location="183,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/dashboard.jsp,null,/dashboard.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2214,2801" />
+      <AbsolutePoint location="2214,2816" />
+      <AbsolutePoint location="2049,2816" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/companyAccount.do,display,/jsp/companyAccount.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2368,1350" />
+      <AbsolutePoint location="2368,1016" />
+      <AbsolutePoint location="1176,1016" />
+      <AbsolutePoint location="1176,1875" />
+      <AbsolutePoint location="1250,1875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountantconmgnt.do,display,/jsp/accountantconmgnt.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2841,2046" />
+      <AbsolutePoint location="2841,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountanthistory.do,display2,/jsp/acccontact_no.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2836,2446" />
+      <AbsolutePoint location="2836,2487" />
+      <AbsolutePoint location="1025,2487" />
+      <AbsolutePoint location="1025,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountantReport.do,display,/jsp/accountantReport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2089,3175" />
+      <AbsolutePoint location="2150,3175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderhistory.do,display,/jsp/tenderhistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2521,1175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtender1.do,display,/jsp/fieldtender1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3153,2646" />
+      <AbsolutePoint location="3153,2687" />
+      <AbsolutePoint location="786,2687" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empMaster.do,display,/jsp/employeeMaster.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,298" />
+      <AbsolutePoint location="866,298" />
+      <AbsolutePoint location="866,516" />
+      <AbsolutePoint location="160,516" />
+      <AbsolutePoint location="160,501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldchangepwd.do,display,/jsp/fieldchangepwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1779,2575" />
+      <AbsolutePoint location="1850,2575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/workview.jsp,null,/workview.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/tenderhistory.jsp,null,/tenderhistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2521,1175" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,home,/homedashboard.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,98" />
+      <AbsolutePoint location="-55,98" />
+      <AbsolutePoint location="-55,2916" />
+      <AbsolutePoint location="650,2916" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/history.do,display,/jsp/history.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1940,1646" />
+      <AbsolutePoint location="1940,1665" />
+      <AbsolutePoint location="1375,1665" />
+      <AbsolutePoint location="1375,1765" />
+      <AbsolutePoint location="704,1765" />
+      <AbsolutePoint location="704,1701" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/history.jsp,null,/history.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1675" />
+      <AbsolutePoint location="626,1675" />
+      <AbsolutePoint location="626,2016" />
+      <AbsolutePoint location="1794,2016" />
+      <AbsolutePoint location="1794,1575" />
+      <AbsolutePoint location="1850,1575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accountanthistory.jsp,null,/accountanthistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="209,2501" />
+      <AbsolutePoint location="209,2738" />
+      <AbsolutePoint location="2888,2738" />
+      <AbsolutePoint location="2888,2446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/devUpdate.jsp,null,/devUpdate.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2850,1150" />
+      <AbsolutePoint location="2850,1046" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/field.do,display,/jsp/field.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3217,3216" />
+      <AbsolutePoint location="3398,3216" />
+      <AbsolutePoint location="3398,3201" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/clientPayment.do,display,/jsp/clientPayment.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1640,1266" />
+      <AbsolutePoint location="1640,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderdisplay.do,display,/jsp/tenderdisplay.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/acccontact_name.do,display1,/jsp/accountanthistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2486" />
+      <AbsolutePoint location="219,2486" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bankDetails.do,display,/jsp/bankDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1228" />
+      <AbsolutePoint location="2045,1228" />
+      <AbsolutePoint location="2045,1665" />
+      <AbsolutePoint location="2217,1665" />
+      <AbsolutePoint location="2217,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bankDetails.do,displayemp,/jsp/employeeAccount.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2251,1150" />
+      <AbsolutePoint location="2251,1065" />
+      <AbsolutePoint location="1433,1065" />
+      <AbsolutePoint location="1433,1975" />
+      <AbsolutePoint location="520,1975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devUpdate.do,display,/jsp/devUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2815,1046" />
+      <AbsolutePoint location="2815,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminworktime.do,display,/jsp/adminworktime.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3460,2846" />
+      <AbsolutePoint location="3460,2916" />
+      <AbsolutePoint location="1638,2916" />
+      <AbsolutePoint location="1638,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contact_no.do,display,/jsp/contact_no.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2053,2216" />
+      <AbsolutePoint location="2216,2216" />
+      <AbsolutePoint location="2216,2201" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/home.jsp,null,/home.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="432,1150" />
+      <AbsolutePoint location="432,1016" />
+      <AbsolutePoint location="1067,1016" />
+      <AbsolutePoint location="1067,946" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accreports.do,display,/jsp/accreports.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1149,3216" />
+      <AbsolutePoint location="1614,3216" />
+      <AbsolutePoint location="1614,3201" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactHistory.do,display2,/jsp/contact_no.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,798" />
+      <AbsolutePoint location="2104,798" />
+      <AbsolutePoint location="2104,2175" />
+      <AbsolutePoint location="2150,2175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/contactHistory.jsp,null,/contactHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2225,950" />
+      <AbsolutePoint location="2225,846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/account.do,accountant1234,/jsp/accountant1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2337,2016" />
+      <AbsolutePoint location="2685,2016" />
+      <AbsolutePoint location="2685,875" />
+      <AbsolutePoint location="1989,875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldtender1.jsp,null,/fieldtender1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="786,2697" />
+      <AbsolutePoint location="3163,2697" />
+      <AbsolutePoint location="3163,2646" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/personalinfo.do,display,/jsp/personalinfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3719,1346" />
+      <AbsolutePoint location="3719,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/webApplication.jsp,null,/webApplication.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="728,1050" />
+      <AbsolutePoint location="728,898" />
+      <AbsolutePoint location="577,898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminworkdetail.jsp,null,/adminworkdetail.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2506,3001" />
+      <AbsolutePoint location="2506,3016" />
+      <AbsolutePoint location="2383,3016" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tenderdetails.do,display,/jsp/tenderdetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/personalhistory.jsp,null,/personalhistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3761,2850" />
+      <AbsolutePoint location="3761,2746" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtime.do,display,/jsp/fieldtime.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3410,1446" />
+      <AbsolutePoint location="3410,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/acccontact_no.do,display,/jsp/acccontact_no.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="571,2575" />
+      <AbsolutePoint location="950,2575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldworkview.jsp,null,/fieldworkview.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3158,2350" />
+      <AbsolutePoint location="3158,2246" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/field.jsp,null,/field.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3398,3150" />
+      <AbsolutePoint location="3398,3130" />
+      <AbsolutePoint location="3133,3130" />
+      <AbsolutePoint location="3133,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dailyreport.do,display,/jsp/dailyreport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3415,2446" />
+      <AbsolutePoint location="3415,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/forgotPassword.jsp,null,/forgotPassword.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1406,1251" />
+      <AbsolutePoint location="1493,1251" />
+      <AbsolutePoint location="1493,328" />
+      <AbsolutePoint location="1477,328" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contactManage.do,display,/jsp/contactManage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="877,1875" />
+      <AbsolutePoint location="950,1875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/assignTask.jsp,null,/assignTask.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1015,1101" />
+      <AbsolutePoint location="1015,1216" />
+      <AbsolutePoint location="30,1216" />
+      <AbsolutePoint location="30,298" />
+      <AbsolutePoint location="50,298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/companyAccount.jsp,null,/companyAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1334,1901" />
+      <AbsolutePoint location="1334,2065" />
+      <AbsolutePoint location="1523,2065" />
+      <AbsolutePoint location="1523,1516" />
+      <AbsolutePoint location="2269,1516" />
+      <AbsolutePoint location="2269,1446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtaskview.do,display,/jsp/fieldtaskview.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3120,1146" />
+      <AbsolutePoint location="3120,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dailywork.do,display,/jsp/dailywork.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,2428" />
+      <AbsolutePoint location="264,2428" />
+      <AbsolutePoint location="264,2816" />
+      <AbsolutePoint location="1226,2816" />
+      <AbsolutePoint location="1226,2375" />
+      <AbsolutePoint location="1074,2375" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/devtime.jsp,null,/devtime.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3466,2175" />
+      <AbsolutePoint location="3493,2175" />
+      <AbsolutePoint location="3493,1846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,display,/jsp/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="153,50" />
+      <AbsolutePoint location="153,-55" />
+      <AbsolutePoint location="730,-55" />
+      <AbsolutePoint location="730,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/serialNo.jsp,null,/serialNo.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1608,2801" />
+      <AbsolutePoint location="1608,2816" />
+      <AbsolutePoint location="1436,2816" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminworktime.do,displayTimeReport,/jsp/displayTimeReport.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3490,2846" />
+      <AbsolutePoint location="3490,3016" />
+      <AbsolutePoint location="2536,3016" />
+      <AbsolutePoint location="2536,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminChangePwd.jsp,null,/adminChangePwd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="735,750" />
+      <AbsolutePoint location="735,716" />
+      <AbsolutePoint location="292,716" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/assignReport.jsp,null,/assignReport.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3491,575" />
+      <AbsolutePoint location="3601,575" />
+      <AbsolutePoint location="3601,3065" />
+      <AbsolutePoint location="3650,3065" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtaskview.do,update,/fieldtaskupdate.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3206,1146" />
+      <AbsolutePoint location="3206,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,success,/webApplication.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,868" />
+      <AbsolutePoint location="577,868" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/accounts.jsp,null,/accounts.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1671,1575" />
+      <AbsolutePoint location="1745,1575" />
+      <AbsolutePoint location="1745,1816" />
+      <AbsolutePoint location="519,1816" />
+      <AbsolutePoint location="519,1646" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/devupdatetask.jsp,null,/devupdatetask.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2525,2150" />
+      <AbsolutePoint location="2525,2065" />
+      <AbsolutePoint location="3290,2065" />
+      <AbsolutePoint location="3290,1416" />
+      <AbsolutePoint location="2670,1416" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/adminworktime.jsp,null,/adminworktime.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1628,3001" />
+      <AbsolutePoint location="1628,3065" />
+      <AbsolutePoint location="3520,3065" />
+      <AbsolutePoint location="3520,2846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/contact_no.jsp,null,/contact_no.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2213,2150" />
+      <AbsolutePoint location="2213,2065" />
+      <AbsolutePoint location="1933,2065" />
+      <AbsolutePoint location="1933,2150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/fieldtender1.do,check,/jsp/field.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3232,2646" />
+      <AbsolutePoint location="3232,3175" />
+      <AbsolutePoint location="3350,3175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/accountanthistory.do,display,/jsp/accountanthistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2910,2446" />
+      <AbsolutePoint location="2910,3130" />
+      <AbsolutePoint location="187,3130" />
+      <AbsolutePoint location="187,2501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,fo,/fieldtime.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="153,146" />
+      <AbsolutePoint location="153,221" />
+      <AbsolutePoint location="3509,221" />
+      <AbsolutePoint location="3509,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tender.do,check,/jsp/tenderhistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2329,368" />
+      <AbsolutePoint location="2737,368" />
+      <AbsolutePoint location="2737,965" />
+      <AbsolutePoint location="2521,965" />
+      <AbsolutePoint location="2521,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devtask.do,update,/devUpdate.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2333,2408" />
+      <AbsolutePoint location="2737,2408" />
+      <AbsolutePoint location="2737,994" />
+      <AbsolutePoint location="2750,994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminworkdetail.do,display,/jsp/adminworkdetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2383,2975" />
+      <AbsolutePoint location="2450,2975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/empViewTask.do,display,/jsp/empView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1049,746" />
+      <AbsolutePoint location="1049,822" />
+      <AbsolutePoint location="111,822" />
+      <AbsolutePoint location="111,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/jsp/fieldtaskview.jsp,null,/fieldtaskview.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3156,1250" />
+      <AbsolutePoint location="3156,1146" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/devchangepwd.do,display,/jsp/devchangepwd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="274,2275" />
+      <AbsolutePoint location="650,2275" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

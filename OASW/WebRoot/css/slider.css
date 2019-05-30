@@ -1,0 +1,86 @@
+body{
+	overflow:hidden;
+	width:960px;
+	margin:10px auto;
+}
+
+p{
+	border-bottom: 1px dotted #d8d8d8;
+	padding-bottom: 15px;
+	font-size:17px;
+}
+
+#slider{
+	width:500px;
+	top:115px;
+	position:absolute;
+}
+   
+#header{ 
+	width:260px;
+	height:420px;
+	position:absolute; 
+	right:0px; 
+	border:1px solid #d8d8d8;
+	margin-left:40px;
+	padding:20px 40px;
+	border-radius:3px;
+	box-shadow: 0 0 8px gray;
+}
+
+
+#sidebar{
+	position:absolute;
+	top:180px;
+	left:113px;
+	box-shadow: 0 0 8px gray;
+}
+
+#sidebar1{
+	position:absolute;
+	top:180px;
+	left:113px;
+	box-shadow: 0 0 8px gray;
+}
+
+
+h3{
+	font-family: 'Roboto Slab', serif;
+}
+
+.dname{
+	margin-top: 15px;
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	}
+
+h4{
+	font-size:15px;
+}
+div#title{
+	position:absolute;
+	top:300px;
+	left:650px;
+	}
+	
+.selectField1{
+	padding:6px;
+	width:100%;
+	font-size:15px;
+	border-radius:2px;
+	border:3px solid #98d0f1;
+	margin-top: 15px;
+}
+
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/
+.formget{
+	width:300px;
+	margin-top: 65px;
+	margin-left: 57px;
+	float: left;
+	}

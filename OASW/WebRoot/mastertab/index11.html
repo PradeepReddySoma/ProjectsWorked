@@ -1,0 +1,117 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Custom Tab Example</title>
+
+<!-- Incude CSS for JQuery Vertical Tabs -->
+<link rel="stylesheet" type="text/css" href="css/jquery-jvert-tabs-1.1.4.css" />
+
+<!-- Include JQuery Core-->
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+
+<!-- Include JQuery Vertical Tabs plugin -->
+<script type="text/javascript" src="js/jquery-jvert-tabs-1.1.4.js"></script>
+
+</head>
+<body>
+
+<h1>jVertTabs Tab Example</h1>
+
+<style type="text/css" media="screen">
+.code, .codeHead {
+	background-color: #dddddd;
+	color: #000000;
+	font: 12px helvetica, verdana, georgia, times, arial, sans-serif;
+	line-height: 18px;
+	padding: 3px;
+	margin: 0px;
+}
+.codeHead {
+	background-color: #bbbbbb;
+}
+textarea.code {
+	width: 80%; height: 300px; padding:0px; margin:0px;
+	font: 12px helvetica, verdana, georgia, times, arial, sans-serif;
+	font-family:monospace;
+	background-color: #efefef; color: #222222;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$("#vtabs1").jVertTabs();
+	$("#vtabs2").jVertTabs({
+		selected: 1
+	});
+	$("#vtabs3").jVertTabs({
+		select: function(index){
+			alert("You clicked tab " + index);
+		}
+	});
+	$("#vtabs4").jVertTabs();
+	$("#vtabs5").jVertTabs({
+		equalHeights: true
+	});
+	$("#vtabs6").jVertTabs({
+		select: function(index){
+			alert("tab " + index + " opened.");
+		}
+	});
+	$("#vtabs6").jVertTabs('selected',3); // select 4th tab, 0-based.
+	$("#vtabs7").jVertTabs({
+		selected: 1
+	});
+	$("#vtabs8").jVertTabs();
+	$("#vtabs8").jVertTabs('selected',2); // select 3rd tab, 0-based.
+		
+	// add click events for open tab buttons
+	$("input[id^=openTab]").each(function(index){
+		$(this).click(function(){
+			openTab("#vtabs6",index);
+			return false;
+		});
+	});	
+	function openTab(tabId,index){
+		$(tabId).jVertTabs('selected',index);
+	}
+});
+</script>
+<br>
+
+<h3>Preselect 2nd Tab</h3>
+The second tab will be open when tabs are initialized.<br><br>
+<div id="vtabs2">
+	<div>
+		<ul>
+			<li><a href="#vtabs-content-a">Tab 1</a></li>
+			<li><a href="#vtabs-content-b">Tab 2</a></li>
+			<li><a href="#vtabs-content-c">Tab 3</a></li>
+			<li><a href="#vtabs-content-d">Tab 4</a></li>		
+		</ul>
+	</div>
+	<div>
+		<div id="#vtabs-content-a">
+			<p>This is panel 1</p>		
+			<p>Some text on panel 1</p>	
+		</div>
+		<div id="#vtabs-content-b">
+			<p>This is panel 2</p>
+			<p>I am pre selected!</p>	
+		</div>
+		<div id="#vtabs-content-c">
+			<p>This is panel 3</p>
+			<p>Some text on panel 3</p>	
+		</div>	
+		<div id="#vtabs-content-d">
+			<p>This is panel 4</p>
+			<p>Some text on panel 4</p>	
+		</div>
+	</div>
+</div>
+
+<br>
+</body>
+</html>

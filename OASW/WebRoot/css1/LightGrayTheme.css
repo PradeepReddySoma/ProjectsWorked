@@ -1,0 +1,64 @@
+.tableborder
+{
+  border-top:    thin solid #DBD8C8; 
+  border-right:  thin solid #DBD8C8;  
+  border-left:   thin solid #DBD8C8; 
+  border-bottom: thin solid #DBD8C8; 
+  border-style:  groove inset solid #DBD8C8; 
+
+}
+
+.tableborder1
+{
+  border-top:    thin solid #B69675; 
+  border-right:  thick solid #B69675; 
+  border-left:   thin solid #B69675; 
+  border-bottom: medium solid #B69675; 
+  border-style:  groove inset solid #B69675; 
+
+}
+.heading { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#D4D1C2;
+	font-weight:bold;
+	font-size: 11px;
+	line-height: 22px;
+	color:#000000;
+	vertical-align: middle;
+	text-align: left;ft;
+}
+
+.tablerowdark { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#F2EFDD;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+ .tablerowlight { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#FFFFFF;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+
+ .textarea
+{
+	height: 48px;
+	width: 130px;
+	border-style:solid;
+    border-color:#9E9B90;
+	border-width:1px;
+}
+.textfield{      
+				  border-style:solid;
+                  border-color:#9E9B90;
+				  border-width:1px;
+				  width:130px;
+				  height:20px;
+}

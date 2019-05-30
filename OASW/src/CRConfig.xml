@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><CrystalReportEngine-configuration>
+   <reportlocation>../WEB-INF/reports/..</reportlocation>
+    <timeout>10</timeout>
+    <timeout>10</timeout>
+    
+    <ExternalFunctionLibraryClassNames> 
+		<classname> </classname>
+		<classname> </classname>
+    </ExternalFunctionLibraryClassNames>
+    
+<keycode>CTK0T-5RYZZP6-000MYCJ-4FXT</keycode>
+<Javaserver-configuration>
+<DataDriverCommon>
+	<JavaDir>C:\Program Files\Java\jdk1.6.0_02\bin</JavaDir>
+    <Classpath>../WEB-INF/lib/crlovmanifest.jar;
+    	../WEB-INF/lib/CRLOVExternal.jar;
+    	../WEB-INF/lib/CRDBJavaServerCommon.jar;
+    	../WEB-INF/lib/CRDBJavaServer.jar;
+    	../WEB-INF/lib/CRDBJDBCServer.jar;
+    	../WEB-INF/lib/CRDBXMLServer.jar;
+    	../WEB-INF/lib/CRDBJavaBeansServer.jar;
+    	../WEB-INF/lib/CRDBXMLExternal.jar;
+    	../WEB-INF/lib/log4j.jar;
+    	../WEB-INF/lib/cecore.jar;
+    	../WEB-INF/lib/celib.jar;
+    	../WEB-INF/lib/ebus405.jar;
+    	../WEB-INF/lib/corbaidl.jar;
+    	../WEB-INF/lib/freessl201.jar;
+    	../WEB-INF/lib/asn1.jar;
+    	../WEB-INF/lib/certj.jar;
+    	../WEB-INF/lib/jsafe.jar;
+    	../WEB-INF/lib/ojdbc14_g.jar;
+    	../WEB-INF/lib/ojdbc14.jar;
+    	../WEB-INF/lib/sslj.jar;${CLASSPATH}</Classpath>
+	<IORFileLocation>${TEMP}</IORFileLocation>
+	<JavaServerTimeout>1800</JavaServerTimeout>
+	<JavaServerStartupTimeout>30</JavaServerStartupTimeout>
+	<JVMMaxHeap>64000000</JVMMaxHeap>
+	<JVMMinHeap>32000000</JVMMinHeap>
+	<NumberOfThreads>100</NumberOfThreads>
+</DataDriverCommon>
+<JDBC>
+<CacheRowSetSize>100</CacheRowSetSize>
+<JDBCURL>jdbc:oracle:thin:@192.168.1.11:1521:xe</JDBCURL>
+<JDBCClassName>oracle.jdbc.driver.OracleDriver</JDBCClassName>
+<JDBCUserName>central</JDBCUserName>
+<JNDIURL>xe</JNDIURL>
+<JNDIConnectionFactory></JNDIConnectionFactory>
+<JNDIInitContext>/</JNDIInitContext>
+<JNDIUserName></JNDIUserName>
+<GenericJDBCDriver>
+<Option>Yes</Option>
+<DatabaseStructure>catalogs,tables</DatabaseStructure>
+<StoredProcType>Oracle</StoredProcType>
+<LogonStyle>Oracle</LogonStyle>
+</GenericJDBCDriver>
+</JDBC>
+<XML>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<PreReadNBytes>4096</PreReadNBytes>
+	<XMLLocalURL></XMLLocalURL>
+	<SchemaLocalURL></SchemaLocalURL>
+	<XMLHttpURL></XMLHttpURL>
+	<SchemaHttpURL></SchemaHttpURL>
+</XML>
+<JavaBeans>
+    <CacheRowSetSize>100</CacheRowSetSize>
+	<JavaBeansClassPath></JavaBeansClassPath>
+</JavaBeans>
+</Javaserver-configuration>
+</CrystalReportEngine-configuration>

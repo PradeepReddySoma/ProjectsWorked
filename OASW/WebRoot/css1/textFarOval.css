@@ -1,0 +1,43 @@
+body {
+    margin: 30px;
+}
+
+.textOval {
+    border: 1px solid rgb(100%, 20%, 1%);
+    border-radius: 5px;
+    padding: 3px;
+   /* background-color:#DCF7F2;*/
+   width:150px;
+   font-style:normal;
+   font-size: small; 
+   
+}
+
+.textOval:focus {
+    border: 1px solid rgba(82, 168, 236, 0.8);
+    box-shadow: 0 0 10px rgb(80%, 80%, 30%);
+    outline: none;
+     -moz-appearance:    none;
+     -webkit-appearance: textfield;
+     appearance: none;
+}
+.textOvalName {
+    border: 1px solid rgb(100%, 20%, 1%);
+    border-radius: 5px;
+    padding: 3px;
+   /* background-color:#DCF7F2;*/
+   width:220px;
+   font-style:normal;
+   font-size: small; 
+   
+}
+
+.textOvalName:focus {
+    border: 1px solid rgb(100%, 20%, 1%);
+    box-shadow: 0 0 10px rgb(80%, 80%, 30%);
+    outline: none;
+     -moz-appearance:    none;
+     -webkit-appearance: textfield;
+     appearance: none;
+}
+

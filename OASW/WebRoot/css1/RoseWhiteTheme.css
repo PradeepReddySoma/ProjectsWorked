@@ -1,0 +1,64 @@
+.tableborder
+{
+  border-top:    thin solid #B69675; 
+  border-right:  thin solid #B69675;  
+  border-left:   thin solid #B69675; 
+  border-bottom: thin solid #B69675; 
+  border-style:  groove inset solid #B69675; 
+
+}
+
+.tableborder1
+{
+  border-top:    thin solid #B69675; 
+  border-right:  thick solid #B69675; 
+  border-left:   thin solid #B69675; 
+  border-bottom: medium solid #B69675; 
+  border-style:  groove inset solid #B69675; 
+
+}
+.heading { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#B69675;
+	font-weight:bold;
+	font-size: 11px;
+	line-height: 22px;
+	color:#FFFFFF;
+	vertical-align: middle;
+	text-align: left;ft;
+}
+
+.tablerowdark { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#fff8f0;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+ .tablerowlight { font-family: Verdana, Arial, Helvetica, sans-serif;
+                  background-color:#FFFEF9;
+                  font-weight:none;
+                  font-size: 11px;
+                  line-height:1;
+                  color:#000000;
+                  vertical-align: middle;
+                  text-align: left;
+ }
+
+ .textarea
+{
+	height: 48px;
+	width: 130px;
+	border-style:solid;
+    border-color:#B69675;
+	border-width:1px;
+}
+.textfield{      
+				  border-style:solid;
+                  border-color:#B69675;
+				  border-width:1px;
+				  width:130px;
+				  height:20px;
+}

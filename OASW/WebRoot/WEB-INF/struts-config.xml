@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="loginForm" type="com.forms.LoginDetails" />
+		<form-bean name="homeForm" type="com.forms.HomeForm" />
+		<form-bean name="assignTaskForm" type="com.forms.AssignTaskForm" />
+		<form-bean name="viewWorkForm" type="com.forms.AdminViewWorkForm" />
+		<form-bean name="workDetailsForm" type="com.forms.WorkDetailsForm" />
+		<form-bean name="empMaster" type="com.forms.EmployeeMaster" />
+		<form-bean name="userMngmtForm" type="com.forms.UserMngmentForm" />
+		<form-bean name="changePwdForm" type="com.forms.ChangePwdForm" />
+		<form-bean name="empViewTaskForm" type="com.forms.EmpViewTasksForm" />
+		<form-bean name="webApplicationForm" type="com.forms.WebApplicationForm" />
+		<form-bean name="empUpdateForm" type="com.forms.EmpUpdateTaskForm" />
+		<form-bean name="updateTaskForm" type="com.forms.UpdatedTasksForm" />
+		<form-bean name="forgotPasswordForm" type="com.forms.ForgotPasswordForm" />
+		<form-bean name="adminaccountForm" type="com.forms.AdminaccountForm"></form-bean>
+	    <form-bean name="AccountantForm" type="com.forms.AccountantForm" ></form-bean>
+	    <form-bean name="ReportsForm" type="com.forms.ReportsForm" > </form-bean>
+	    <form-bean name="AccountsForm" type="com.forms.AccountsForm" > </form-bean>
+        <form-bean name="accountant1Form" type="com.forms.Accountant1Form" />
+        <form-bean name="historyForm" type="com.forms.HistoryForm" />
+        <form-bean name="accountHistoryForm" type="com.forms.AccountHistoryForm" />
+        <form-bean name="clientHistoryForm" type="com.forms.ClientHistoryForm" />
+        <form-bean name="tenderDetailsForm" type="com.forms.TenderDetailsForm" />
+        <form-bean name="tenderDisplayForm" type="com.forms.TenderDisplayForm" />
+        <form-bean name="contactManageForm" type="com.forms.ContactManageForm" />
+        <form-bean name="contactHistoryForm" type="com.forms.ContactHistoryForm" />
+        <form-bean name="bankDetailsForm" type="com.forms.BankDetailsForm" />
+      
+        <form-bean name="employeeAccountForm" type="com.forms.EmployeeAccountForm" />
+    <form-bean name="companyAccountForm" type="com.forms.CompanyAccountForm" />
+    <form-bean name="clientPaymentForm" type="com.forms.ClientPaymentForm" />
+    <form-bean name="accountForm" type="com.forms.AccountForm" />
+    <form-bean name="contactnameForm" type="com.forms.ContactnameForm" />
+    <form-bean name="contact_noForm" type="com.forms.Contact_noForm" />
+    <form-bean name="tenderForm" type="com.forms.TenderForm" />
+    <form-bean name="tenderhistoryForm" type="com.forms.Form" />
+    <form-bean name="devupdatetaskForm" type="com.forms.DevupdatetaskForm" />
+    <form-bean name="devchangepwdForm" type="com.forms.DevchangepwdForm" />
+    <form-bean name="dailyworkForm" type="com.forms.DailyworkForm" />
+    <form-bean name="displayworkForm" type="com.forms.DisplayworkForm" />
+    <form-bean name="devUpdateForm" type="com.forms.DevUpdateForm" />
+    <form-bean name="workviewForm" type="com.forms.WorkviewForm" />
+    <form-bean name="accountantconmgntForm" type="com.forms.AccountantconmgntForm" />
+    <form-bean name="accountanthistoryForm" type="com.forms.AccountanthistoryForm" />
+    <form-bean name="acccontact_nameForm" type="com.forms.Acccontact_nameForm" />
+    <form-bean name="acccontact_noForm" type="com.forms.Acccontact_noForm" />
+    <form-bean name="fieldchangepwdForm" type="com.forms.FieldchangepwdForm" />
+    <form-bean name="devtaskForm" type="com.forms.DevtaskForm" />
+    <form-bean name="fieldtaskviewForm" type="com.forms.FieldtaskviewForm" />
+    <form-bean name="fieldtaskupdateForm" type="com.forms.FieldtaskupdateForm" />
+    <form-bean name="fieldworkviewForm" type="com.forms.FieldworkviewForm" />
+    <form-bean name="fieldtender1Form" type="com.forms.Fieldtender1Form" />
+    <form-bean name="fieldForm" type="com.forms.FieldForm" />
+    <form-bean name="serialNoForm" type="com.forms.SerialNoForm" />
+    <form-bean name="dashboardForm" type="com.forms.DashboardForm" />
+    <form-bean name="accworkForm" type="com.forms.AccworkForm" />
+    <form-bean name="fieldworkForm" type="com.forms.FieldworkForm" />
+    <form-bean name="homedashboardForm" type="com.forms.HomedashboardForm" />
+    <form-bean name="workingtimeForm" type="com.forms.WorkingtimeForm" />
+    <form-bean name="fieldtimeForm" type="com.forms.FieldtimeForm" />
+    <form-bean name="devtimeForm" type="com.forms.DevtimeForm" />
+    <form-bean name="dailyreportForm" type="com.forms.DailyreportForm" />
+    <form-bean name="adminworktimeForm" type="com.forms.AdminworktimeForm" />
+    <form-bean name="adminworkdetailForm" type="com.forms.AdminworkdetailForm" />
+    <form-bean name="accreportsForm" type="com.forms.AccreportsForm" />
+    <form-bean name="accountantReportForm" type="com.forms.AccountantReportForm" />
+    <form-bean name="personalinfoForm" type="com.forms.PersonalinfoForm" />
+    <form-bean name="personalhistoryForm" type="com.forms.PersonalhistoryForm" />
+       </form-beans>
+	    
+	<global-exceptions />
+	
+	<global-forwards />
+	<action-mappings>
+
+		<action 
+			attribute="loginForm" 
+			input="/jsp/login.jsp" 
+			name="loginForm"
+			parameter="method" 
+			path="/login" 
+			scope="request"
+			type="com.actions.LoginDetailsAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/login.jsp" />
+			<forward name="home" path="/homedashboard.do?method=display" />
+			<forward name="emp" path="/workingtime.do?method=display" />
+			<forward name="dev" path="/devtime.do?method=display"/>
+			<forward name="fo" path="/fieldtime.do?method=display"></forward>
+		
+			
+			<forward name="failure" path="/jsp/login.jsp" />
+		</action>
+ 
+		<action   
+			attribute="homeForm" 
+			input="/jsp/home.jsp" 
+			name="homeForm"
+			parameter="method" 
+			path="/home" 
+			scope="request" 
+			type="com.actions.HomeAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/home.jsp" />
+			<forward name="success" path="/webApplication.do?method=display" />
+			<forward name="failure" path="/jsp/home.jsp" />
+		</action>
+
+		<action 
+			attribute="assignTaskForm" 
+			input="/jsp/assignTask.jsp"
+			name="assignTaskForm" 
+			parameter="method" 
+			path="/assignTask" 
+			scope="request"
+			type="com.actions.AssignTaskAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/assignTask.jsp" />
+			<forward name="displayReport1" path="/jsp/assignReport.jsp" />
+		</action>
+
+		<action 
+			attribute="viewWorkForm" 
+			input="/jsp/adminViewWork.jsp"
+			name="viewWorkForm" 
+			parameter="method" 
+			path="/viewWorkDetails"
+			scope="request" 
+			type="com.actions.AdminViewWorkAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/adminViewWork.jsp" />
+		</action>
+		
+		<action 
+			attribute="workDetailsForm" 
+			input="/jsp/workDetails.jsp"
+			name="workDetailsForm" 
+			parameter="method" 
+			path="/workDetails"
+			scope="request" 
+			type="com.actions.WorkDetailsAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/workDetails.jsp" />
+		</action>
+
+		<action 
+			attribute="empMaster" 
+			input="/jsp/employeeMaster.jsp"
+			name="empMaster" 
+			parameter="method" 
+			path="/empMaster" 
+			scope="request"
+			type="com.actions.EmployeeMasterAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/employeeMaster.jsp" />
+		</action>
+
+		<action 
+			attribute="userMngmtForm" 
+			input="/jsp/adminUserMngmt.jsp"
+			name="userMngmtForm" 
+			parameter="method" 
+			path="/adminUsrMngmt" 
+			scope="request"
+			type="com.actions.UserManagmentAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/adminUserMngmt.jsp" />
+		</action>
+
+		<action 
+			attribute="changePwdForm" 
+			input="/jsp/adminChangePwd.jsp"
+			name="changePwdForm" 
+			parameter="method" 
+			path="/adminChangePwd" 
+			scope="request"
+			type="com.actions.AdminChangePwdAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/adminChangePwd.jsp" />
+		</action>
+
+		<action 
+			attribute="empViewTaskForm" 
+			input="/jsp/empView.jsp"
+			name="empViewTaskForm" 
+			parameter="method" 
+			path="/empViewTask" 
+			scope="request"
+			type="com.actions.EmpViewTaskAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/empView.jsp" />
+			<forward name="update" path="/empUpdateTask.do?method=display" />
+			<forward name="display1" path="/empViewTask.do?method=display"></forward>
+		</action>
+
+		<action 
+			attribute="webApplicationForm" 
+			input="/jsp/webApplication.jsp"
+			name="webApplicationForm" 
+			parameter="method" 
+			path="/webApplication"
+			scope="request" 
+			type="com.actions.WebApplicationAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/webApplication.jsp" />
+		</action>
+		
+		<action 
+			attribute="empUpdateForm" 
+			input="/jsp/empUpdateTask.jsp"
+			name="empUpdateForm"   
+			parameter="method" 
+			path="/empUpdateTask"
+			scope="request" 
+			type="com.actions.EmpUpdateTaskAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/empUpdateTask.jsp" />
+		</action>
+		
+		<action 
+			attribute="updateTaskForm" 
+			input="/jsp/updatedTasks.jsp"
+			name="updateTaskForm" 
+			parameter="method" 
+			path="/updatedTasks"
+			scope="request" 
+			type="com.actions.UpdatedTasksAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/updatedTasks.jsp" />
+		</action>
+		
+		<action 
+			attribute="changePwdForm" 
+			input="/jsp/empChangePwd.jsp"
+			name="changePwdForm" 
+			parameter="method" 
+			path="/empChangePwd"
+			scope="request" 
+			type="com.actions.EmpChangePwdAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/empChangePwd.jsp" />
+		</action>
+		
+		<action 
+			attribute="forgotPasswordForm" 
+			input="/jsp/forgotPassword.jsp"
+			name="forgotPasswordForm" 
+			parameter="method" 
+			path="/forgotPassword"
+			scope="request" 
+			type="com.actions.ForgotPasswordAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/forgotPassword.jsp" />
+		</action>
+		
+		<action 
+			attribute="adminaccountForm" 
+			input="/jsp/adminAccount.jsp"
+			name="adminaccountForm" 
+			parameter="method" 
+			path="/adminAccount"
+			scope="request" 
+			type="com.actions.AdminAccountAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/adminAccount.jsp" />
+		</action>
+        <action
+            attribute="AccountantForm"
+            input="/jsp/accountantForm.jsp"
+            name="AccountantForm"
+            parameter="method"
+            path="/accountantForm"
+            scope="request"
+            type="com.actions.AccountantAction" validate="false">
+            <set-property property="cancellable" value="false" />
+            <forward name="display" path="/jsp/accountantForm.jsp"></forward>
+            <forward name="display123" path="/accountantForm.do?method=show2"></forward>
+    </action>
+    
+	<action 
+    attribute="ReportsForm" 
+			input="/jsp/reports.jsp"
+			name="ReportsForm" 
+			parameter="method" 
+			path="/reports"
+			scope="request" 
+			type="com.actions.ReportsAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/reports.jsp" />
+    </action>
+    
+    <action 
+    attribute="AccountsForm" 
+			input="/jsp/accounts.jsp"
+			name="AccountsForm" 
+			parameter="method" 
+			path="/accounts"
+			scope="request" 
+			type="com.actions.AccountsAction" validate="false">
+			<set-property property="cancellable" value="false" />
+			<forward name="display" path="/jsp/accounts.jsp" />
+			<forward name="slno" path="/jsp/accountantForm.jsp"></forward>
+			<forward name="accountant1234" path="/jsp/accountant1.jsp"></forward>
+			
+    </action>
+    <action
+      attribute="accountant1Form"
+      input="/jsp/accountant1.jsp"
+      name="accountant1Form"
+      parameter="method"
+      path="/accountant1"
+      scope="request"
+      type="com.actions.Accountant1Action">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accountant1.jsp"></forward>
+      <forward name="history" path="/jsp/history.jsp"></forward>
+    </action>
+    <action
+      attribute="historyForm"
+      input="/jsp/history.jsp"
+      name="historyForm"
+      parameter="method"
+      path="/history"
+      scope="request"
+      type="com.actions.HistoryAction">
+      
+      <set-property property="cancellable" value="true" />
+      
+      <forward name="display" path="/jsp/history.jsp">   
+      </forward>
+    </action>
+    <action
+      attribute="accountHistoryForm"
+      input="/jsp/accountHistory.jsp"
+      name="accountHistoryForm"
+      parameter="method"
+      path="/accountHistory"
+      scope="request"
+      type="com.actions.AccountHistoryAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accountHistory.jsp"></forward>
+    </action>
+    <action
+      attribute="clientHistoryForm"
+      input="/jsp/clientHistory.jsp"
+      name="clientHistoryForm"
+      parameter="method"
+      path="/clientHistory"
+      scope="request"
+      type="com.actions.ClientHistoryAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/clientHistory.jsp"></forward>
+    </action>
+      
+    <action
+      attribute="tenderDetailsForm"
+      input="/jsp/tenderdetails.jsp"
+      name="tenderDetailsForm"
+      parameter="method"
+      path="/tenderdetails"
+      scope="request"
+      type="com.actions.TenderDetailsAction">
+      <set-property property="cancellable" value="true" />
+        <forward name="display" path="/jsp/tenderdetails.jsp"/>
+             <forward name="tenderdetails" path="/jsp/tenderdetails.jsp"/>
+              <forward name="check" path="/jsp/tenderdisplay.jsp"/>
+             
+    </action>
+    <action
+      attribute="tenderDisplayForm"
+      input="/jsp/tenderdisplay.jsp"
+      name="tenderDisplayForm"
+      parameter="method"
+      path="/tenderdisplay"
+      scope="request"
+      type="com.actions.TenderDisplayAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/tenderdisplay.jsp"/>
+        <forward name="tenderdisplay" path="/jsp/tenderdisplay.jsp"/>
+      
+    </action>
+    <action
+      attribute="contactManageForm"
+      input="/jsp/contactManage.jsp"
+      name="contactManageForm"
+      parameter="method"
+      path="/contactManage"
+      scope="request"
+      type="com.actions.ContactManageAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/contactManage.jsp"></forward>
+    </action>
+    <action 
+      attribute="contactHistoryForm"
+      input="/jsp/contactHistory.jsp"
+      name="contactHistoryForm"
+      parameter="method"
+      path="/contactHistory"
+      scope="request"
+      type="com.actions.ContactHistoryAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/contactHistory.jsp"></forward>
+      <forward name="display1" path="/jsp/contactname.jsp"></forward>
+      <forward name="display2" path="/jsp/contact_no.jsp"></forward>
+    
+    </action>
+    <action
+      attribute="bankDetailsForm"
+      input="/jsp/bankDetails.jsp"
+      name="bankDetailsForm"
+      parameter="method"
+      path="/bankDetails"
+      scope="request"
+      type="com.actions.BankDetailsAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/bankDetails.jsp"></forward>
+      <forward name="displaycomp" path="/jsp/companyAccount.jsp"></forward>
+      <forward name="displayemp" path="/jsp/employeeAccount.jsp"></forward>
+    </action>
+   
+    <action
+      attribute="employeeAccountForm"
+      input="/jsp/employeeAccount.jsp"
+      name="employeeAccountForm"
+      parameter="method"
+      path="/employeeAccount"
+      scope="request"
+      type="com.actions.EmployeeAccountAction">
+      <set-property property="cancellable" value="true" />
+       <forward name="display" path="/jsp/employeeAccount.jsp"></forward>
+    </action>
+    <action
+      attribute="companyAccountForm"
+      input="/jsp/companyAccount.jsp"
+      name="companyAccountForm"
+      parameter="method"
+      path="/companyAccount"
+      scope="request"
+      type="com.actions.CompanyAccountAction">
+      <set-property property="cancellable" value="true" />
+       <forward name="display" path="/jsp/companyAccount.jsp"></forward>
+    </action>
+    <action
+      attribute="clientPaymentForm"
+      input="/jsp/clientPayment.jsp"
+      name="clientPaymentForm"
+      parameter="method"
+      path="/clientPayment"
+      scope="request"
+      type="com.actions.ClientPaymentAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/clientPayment.jsp"></forward>
+    </action>
+    <action
+      attribute="accountForm"
+      input="/jsp/account.jsp"
+      name="accountForm"
+      parameter="method"
+      path="/account"
+      scope="request"
+      type="com.actions.AccountAction">
+      <set-property property="cancellable" value="true" />
+      	<forward name="display" path="/jsp/account.jsp" />
+			<forward name="slno" path="/jsp/accountantForm.jsp"></forward>
+			<forward name="accountant1234" path="/jsp/accountant1.jsp"></forward>
+    </action>
+    <action
+      attribute="contactnameForm"
+      input="/jsp/contactname.jsp"
+      name="contactnameForm"
+      parameter="method"
+      path="/contactname"
+      scope="request"
+      type="com.actions.ContactnameAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/contactname.jsp"></forward>
+      <forward name="display1" path="/jsp/contactHistory.jsp"></forward>
+    </action>
+    <action
+      attribute="contact_noForm"
+      input="/jsp/contact_no.jsp"
+      name="contact_noForm"
+      parameter="method"
+      path="/contact_no"
+      scope="request"
+      type="com.actions.Contact_noAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/contact_no.jsp"></forward>
+      <forward name="display1" path="/jsp/contactHistory.jsp"></forward>
+    </action>
+    <action
+      attribute="tenderForm"
+      input="/jsp/tender.jsp"
+      name="tenderForm"
+      parameter="method"
+      path="/tender"
+      scope="request"
+      type="com.actions.TenderAction">
+      <set-property property="cancellable" value="true" />
+       <forward name="display" path="/jsp/tender.jsp"/>
+      
+        <forward name="check" path="/jsp/tenderhistory.jsp"></forward>
+    </action>
+    <action
+      attribute="tenderhistoryForm"
+      input="/jsp/tenderhistory.jsp"
+      name="tenderhistoryForm"
+      parameter="method"
+      path="/tenderhistory"
+      scope="request"
+      type="com.actions.TenderhistoryAction">
+      <set-property property="cancellable" value="true" />
+       <forward name="display" path="/jsp/tenderhistory.jsp"/>
+      
+    </action>
+    
+    <!-- <action
+      attribute="Form"
+      input="/jsp/.jsp"
+      name="Form"
+      parameter="method"
+      path="/"
+      scope="request"
+      type="com.actions.Action">
+      <set-property property="cancellable" value="true" />
+       <forward name="display" path="/jsp/.jsp"/>
+      
+    </action> -->
+    <action
+      attribute="devupdatetaskForm"
+      input="/jsp/devupdatetask.jsp"
+      name="devupdatetaskForm"
+      parameter="method"
+      path="/devupdatetask"
+      scope="request"
+      type="com.actions.DevupdatetaskAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/devupdatetask.jsp"></forward>
+    </action>
+    <action
+      attribute="devchangepwdForm"
+      input="/jsp/devchangepwd.jsp"
+      name="devchangepwdForm"
+      parameter="method"
+      path="/devchangepwd"
+      scope="request" 
+      type="com.actions.DevchangepwdAction" validate="false">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/devchangepwd.jsp"></forward>
+    </action>
+    <action
+      attribute="dailyworkForm"
+      input="/jsp/dailywork.jsp"
+      name="dailyworkForm"
+      parameter="method"
+      path="/dailywork"
+      scope="request"
+      type="com.actions.DailyworkAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/dailywork.jsp"></forward>
+    </action>
+    <action
+      attribute="displayworkForm"
+      input="/jsp/displaywork.jsp"
+      name="displayworkForm"
+      parameter="method"
+      path="/displaywork"
+      scope="request"
+      type="com.actions.DisplayworkAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/displaywork.jsp"></forward>
+    </action>
+    
+    <action
+      attribute="assignReportForm"
+      input="/jsp/assignReport.jsp"
+      name="assignReportForm"
+      parameter="method"
+      path="/assignReport"
+      scope="request"
+      type="com.actions.AssignReportAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/assignReport.jsp"></forward>
+    </action>
+    
+    <action
+      attribute="devUpdateForm"
+      input="/jsp/devUpdate.jsp"
+      name="devUpdateForm"
+      parameter="method"
+      path="/devUpdate"
+      scope="request"
+      type="com.actions.DevUpdateAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/devUpdate.jsp"></forward>
+    </action>
+    <action
+      attribute="workviewForm"
+      input="/jsp/workview.jsp"
+      name="workviewForm"
+      parameter="method"
+      path="/workview"
+      scope="request"
+      type="com.actions.WorkviewAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/workview.jsp"></forward>
+    </action>
+    <action
+      attribute="accountantconmgntForm"
+      input="/jsp/accountantconmgnt.jsp"
+      name="accountantconmgntForm"
+      parameter="method"
+      path="/accountantconmgnt" 
+      scope="request"
+      type="com.actions.AccountantconmgntAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accountantconmgnt.jsp"></forward>
+      
+    </action>
+    <action
+      attribute="accountanthistoryForm"
+      input="/jsp/accountanthistory.jsp"
+      name="accountanthistoryForm"
+      parameter="method"
+      path="/accountanthistory"
+      scope="request"
+      type="com.actions.AccountanthistoryAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accountanthistory.jsp"></forward>
+      <forward name="display1" path="/jsp/acccontact_name.jsp"></forward>
+      <forward name="display2" path="/jsp/acccontact_no.jsp"></forward>
+    </action>
+    <action
+      attribute="acccontact_nameForm"
+      input="/jsp/acccontact_name.jsp"
+      name="acccontact_nameForm"
+      parameter="method"
+      path="/acccontact_name"
+      scope="request"
+      type="com.actions.Acccontact_nameAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/acccontact_name.jsp"></forward>
+      <forward name="display1" path="/jsp/accountanthistory.jsp"></forward>
+    </action>
+    <action
+      attribute="acccontact_noForm"
+      input="/jsp/acccontact_no.jsp"
+      name="acccontact_noForm"
+      parameter="method"
+      path="/acccontact_no"
+      scope="request"
+      type="com.actions.Acccontact_noAction">
+      <set-property property="cancellable" value="true" />
+        <forward name="display" path="/jsp/acccontact_no.jsp"></forward>
+      <forward name="display1" path="/jsp/accountanthistory.jsp"></forward>
+    </action>
+    <action
+      attribute="fieldchangepwdForm"
+      input="/jsp/fieldchangepwd.jsp"
+      name="fieldchangepwdForm"
+      parameter="method"
+      path="/fieldchangepwd"
+      scope="request"
+      type="com.actions.FieldchangepwdAction" validate="false">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldchangepwd.jsp"></forward>
+    </action>
+    <action
+      attribute="devtaskForm"
+      input="/jsp/devtask.jsp"
+      name="devtaskForm"
+      parameter="method"
+      path="/devtask"
+      scope="request"
+      type="com.actions.DevtaskAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/devtask.jsp"></forward>
+			<forward name="update" path="/devUpdate.do?method=display" />
+			<forward name="display1" path="/devtask.do?method=display"></forward>
+    </action>
+    <action
+      attribute="fieldtaskviewForm"
+      input="/jsp/fieldtaskview.jsp"
+      name="fieldtaskviewForm"
+      parameter="method"
+      path="/fieldtaskview"
+      scope="request"
+      type="com.actions.FieldtaskviewAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldtaskview.jsp"></forward>
+			<forward name="update" path="/fieldtaskupdate.do?method=display" />
+			<forward name="display1" path="/fieldtaskview.do?method=display"></forward>
+			
+    </action>
+    <action
+      attribute="fieldtaskupdateForm"
+      input="/jsp/fieldtaskupdate.jsp"
+      name="fieldtaskupdateForm"
+      parameter="method"
+      path="/fieldtaskupdate"
+      scope="request"
+      type="com.actions.FieldtaskupdateAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldtaskupdate.jsp"></forward>
+    </action>
+    <action
+      attribute="fieldworkviewForm"
+      input="/jsp/fieldworkview.jsp"
+      name="fieldworkviewForm"
+      parameter="method"
+      path="/fieldworkview"
+      scope="request"
+      type="com.actions.FieldworkviewAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldworkview.jsp"></forward>
+    </action>
+    <action
+      attribute="fieldtender1Form"
+      input="/jsp/fieldtender1.jsp"
+      name="fieldtender1Form"
+      parameter="method"
+      path="/fieldtender1"
+      scope="request"
+      type="com.actions.Fieldtender1Action">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldtender1.jsp"></forward>
+              <forward name="check" path="/jsp/field.jsp"></forward>
+      
+    </action>
+    <action
+      attribute="fieldForm"
+      input="/jsp/field.jsp"
+      name="fieldForm"
+      parameter="method"
+      path="/field"
+      scope="request"
+      type="com.actions.FieldAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/field.jsp"></forward>
+    </action>
+    <action
+      attribute="serialNoForm"
+      input="/jsp/serialNo.jsp"
+      name="serialNoForm"
+      parameter="method"
+      path="/serialNo"
+      scope="request"
+      type="com.actions.SerialNoAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/serialNo.jsp"></forward>
+    </action>
+    <action
+      attribute="dashboardForm"
+      input="/jsp/dashboard.jsp"
+      name="dashboardForm"
+      parameter="method"
+      path="/dashboard"
+      scope="request"
+      type="com.actions.DashboardAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/dashboard.jsp"></forward>
+    </action>
+    <action
+      attribute="accworkForm"
+      input="/jsp/accwork.jsp"
+      name="accworkForm"
+      parameter="method"
+      path="/accwork"
+      scope="request"
+      type="com.actions.AccworkAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accwork.jsp"></forward>
+    </action>
+    <action
+      attribute="fieldworkForm"
+      input="/jsp/fieldwork.jsp"
+      name="fieldworkForm"
+      parameter="method"
+      path="/fieldwork"
+      scope="request"
+      type="com.actions.FieldworkAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldwork.jsp"></forward>
+    </action>
+    <action
+      attribute="homedashboardForm"
+      input="/jsp/homedashboard.jsp"
+      name="homedashboardForm"
+      parameter="method"
+      path="/homedashboard"
+      scope="request"
+      type="com.actions.HomedashboardAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/homedashboard.jsp"></forward>
+    </action>
+    <action
+      attribute="workingtimeForm"
+      input="/jsp/workingtime.jsp"
+      name="workingtimeForm"
+      parameter="method"
+      path="/workingtime"
+      scope="request"
+      type="com.actions.WorkingtimeAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/workingtime.jsp"></forward>
+    </action>
+    <action
+      attribute="fieldtimeForm"
+      input="/jsp/fieldtime.jsp"
+      name="fieldtimeForm"
+      parameter="method"
+      path="/fieldtime"
+      scope="request"
+      type="com.actions.FieldtimeAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/fieldtime.jsp"></forward>
+    </action>
+    <action
+      attribute="devtimeForm"
+      input="/jsp/devtime.jsp"
+      name="devtimeForm"
+      parameter="method"
+      path="/devtime"
+      scope="request"
+      type="com.actions.DevtimeAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/devtime.jsp"></forward>
+    </action>
+    <action
+      attribute="dailyreportForm"
+      input="/jsp/dailyreport.jsp"
+      name="dailyreportForm"
+      parameter="method"
+      path="/dailyreport"
+      scope="request"
+      type="com.actions.DailyreportAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/dailyreport.jsp"></forward>
+    </action>
+    <action
+      attribute="adminworktimeForm"
+      input="/jsp/adminworktime.jsp"
+      name="adminworktimeForm"
+      parameter="method"
+      path="/adminworktime"
+      scope="request"
+      type="com.actions.AdminworktimeAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/adminworktime.jsp"></forward>
+      <forward name="displayTimeReport" path="/jsp/displayTimeReport.jsp"></forward>
+    </action>
+    <action
+      attribute="adminworkdetailForm"
+      input="/jsp/adminworkdetail.jsp"
+      name="adminworkdetailForm"
+      parameter="method"
+      path="/adminworkdetail"
+      scope="request"
+      type="com.actions.AdminworkdetailAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/adminworkdetail.jsp"></forward>
+    </action>
+    <action
+      attribute="accreportsForm"
+      input="/jsp/accreports.jsp"
+      name="accreportsForm"
+      parameter="method"
+      path="/accreports"
+      scope="request"
+      type="com.actions.AccreportsAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accreports.jsp"></forward>
+    </action>
+    <action
+      attribute="accountantReportForm"
+      input="/jsp/accountantReport.jsp"
+      name="accountantReportForm"
+      parameter="method"
+      path="/accountantReport"
+      scope="request"
+      type="com.actions.AccountantReportAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/accountantReport.jsp"></forward>
+    </action>
+    
+    <action
+      attribute="personalinfoForm"
+      input="/jsp/personalinfo.jsp"
+      name="personalinfoForm"
+      parameter="method"
+      path="/personalinfo" 
+      scope="request"
+      type="com.actions.PersonalinfoAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/personalinfo.jsp"></forward>
+      <forward name="history" path="/jsp/personalhistory.jsp"></forward>
+    </action> 
+    <action  
+      attribute="personalhistoryForm"
+      input="/jsp/personalhistory.jsp"
+      name="personalhistoryForm"
+      parameter="method"
+      path="/personalhistory"
+      scope="request"
+      type="com.actions.PersonalhistoryAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="display" path="/jsp/personalhistory.jsp"></forward>
+    </action>
+    
+   	</action-mappings>
+	<message-resources parameter="com.oasw.struts.ApplicationResources" />
+
+</struts-config>
+
