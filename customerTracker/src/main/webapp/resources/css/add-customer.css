@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+table{
+	border-style: none;
+}
+tr:nth-child(odd) {background: #FFFFFF;}
+tr{
+	border-style: none;
+	text-align: left;
+}
+
+form{
+	margin-top: 10px;
+}
+
+label {
+	width: 100px; 
+	text-align: right;
+	display:block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+input{
+	width:250px;
+	border:1px solid gray;
+	border-radius:5px;
+	font-size:16px;
+	font-weight: bold;
+	}
+	
+.save{
+	font-weight: bold;
+	width:130px;
+	padding:5px 10px;
+	margin-top: 
+}	
